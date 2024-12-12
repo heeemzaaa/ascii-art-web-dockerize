@@ -28,8 +28,8 @@ WORKDIR /app/backend
 COPY --from=builder /app/ascii-art-web ./ascii-art-web
 
 # Copy the banners directory
-COPY backend/banners ./banners
-COPY backend/utils ./utils
+COPY backend/internal/art ./art
+COPY backend/internal ./internal
 
 # Copy other required files
 COPY templates ../templates
