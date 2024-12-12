@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 550;
+}
+
+
+body {
+    background: linear-gradient(to bottom, #9D858D, #A4A8D1) no-repeat ;
+    background-size: contain; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.card h1 {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 4vh;
+    font-size: 10vh;
+    margin-bottom: 15px;
+    color: rgb(74, 71, 71);
+}
+
+.card p {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 4vh;
+    color: rgb(74, 71, 71);
+    font-size: 40px;
+}
+
+.ok {
+    border: solid rgb(74, 71, 71);
+    border-radius: 8px;
+    width: 15%;
+    height: 5%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.ok a {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(74, 71, 71);
+}
